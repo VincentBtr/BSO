@@ -58,6 +58,11 @@ h6 {
     font-size: 1.0rem;
   }
 }
+@media (max-width: 620px) {
+  #title .navbar-brand {
+    font-size: 0.7rem;
+  }
+}
 
 #title .nav-link {
   color: rgb(82, 2, 2);
