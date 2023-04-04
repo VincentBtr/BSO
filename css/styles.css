@@ -364,6 +364,11 @@ footer p {
   width: 12%;
   margin: 5%;
 }
+.fb-logo-contact {
+  color: rgb(82, 2, 2);
+  width: 12.5%;
+  margin: 5%;
+}
 
 .mail-logo-contact {
   color: rgb(82, 2, 2);
@@ -377,6 +382,15 @@ footer p {
 
 .contact-element {
   /* margin: 0 14%; */
+}
+
+.hide {
+  display: none;
+}
+
+.mixer {
+  unicode-bidi: bidi-override;
+  direction: rtl;
 }
 
 /* Gallery */
