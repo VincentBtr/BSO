@@ -22,13 +22,13 @@ function switchLang() {
     $(":lang(en)").css("display", "revert");
     $(":lang(fr").css("display", "none");
     usingFR = false;
-    $("#switch-lang").text("FR");
+    $("#switch-lang").html('<img class="language-icon" src="images/language_icon.svg" />EN');
     localStorage.setItem("lang", "en");
   } else {
     $(":lang(en)").css("display", "none");
     $(":lang(fr").css("display", "revert");
     usingFR = true;
-    $("#switch-lang").text("EN");
+    $("#switch-lang").html('<img class="language-icon" src="images/language_icon.svg" />FR');
     localStorage.setItem("lang", "fr");
   }
 }

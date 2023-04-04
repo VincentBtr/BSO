@@ -59,13 +59,17 @@ body {
   font-size: 1.7rem;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1070px) {
   #title .navbar-brand {
     font-size: 1.5rem;
   }
 }
-
-@media (max-width: 620px) {
+@media (max-width: 1010px) {
+  #title .navbar-brand {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 580px) {
   #title .navbar-brand {
     font-size: 1.2rem;
   }
@@ -94,10 +98,15 @@ body {
     font-size: 0.45rem;
   }
 }
+@media (max-width: 295px) {
+  #title .navbar-brand {
+    font-size: 0.35rem;
+  }
+}
 
 /* Header - links to other pages */
 #title .nav-link {
-  color: rgb(82, 2, 2);
+  color: #520202;
   font-weight: 900;
   font-size: 1.1rem;
   font-family: 'Quicksand', 'serif';
@@ -112,6 +121,11 @@ body {
 
 #concert-link {
   color: rgb(247, 247, 247);
+}
+
+.language-icon {
+  filter: invert(9%) sepia(39%) saturate(4239%) hue-rotate(345deg) brightness(100%) contrast(114%);
+  padding-bottom: 3px;
 }
 
 /* Footer */
