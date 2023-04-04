@@ -52,3 +52,5 @@ function openMail() {
 // $("#mail").click(function () {
 //   switchLang();
 // })
+
+$(".active-thumbnail").focus();

@@ -259,10 +259,33 @@ footer p {
 .cards-group-concerts button {
   /* padding: 20% 20% 20%; */
   background-color: rgba(82, 2, 2, 0.75);
+  width: 160px;
 }
-.cards-group-concerts button:hover {
-  /* padding: 20% 20% 20%; */
+@media (max-width: 700px) {
+  .cards-group-concerts button {
+    width: 140px;
+  }
+}
+@media (max-width: 600px) {
+  .cards-group-concerts button {
+    width: 120px;
+  }
+}
+@media (max-width: 500px) {
+  .cards-group-concerts button {
+    width: 90px;
+    font-size: 0.9rem;
+  }
+}
+
+.thumbnail-concert:hover {
   background-color: rgba(82, 2, 2, 0.85);
+}
+.thumbnail-concert:active,
+.thumbnail-concert:focus,
+.thumbnail-concert:target,
+.thumbnail-concert:active:focus {
+  background-color: rgba(82, 2, 2, 0.99);
 }
 
 .body-concerts {
