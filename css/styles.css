@@ -399,6 +399,11 @@ footer p {
   margin: 5%;
 }
 
+.addr-box {
+  text-decoration-line: none;
+  color: rgb(82, 2, 2);
+}
+
 /* Gallery */
 .gallery-box {
   margin: 7% 1%;
