@@ -95,7 +95,7 @@ body {
 
 @media (max-width: 335px) {
   #title .navbar-brand {
-    font-size: 0.45rem;
+    font-size: 0.5rem;
   }
 }
 @media (max-width: 295px) {
@@ -144,6 +144,10 @@ footer p {
 
 .mail-logo {
   width: 23px;
+}
+
+.site-by {
+  font-size: 0.70rem;
 }
 
 /* Index */
@@ -305,8 +309,25 @@ footer p {
   width: 22px;
 }
 
-.concert-info-box iframe {
+.map-concert {
   margin-bottom: 17px;
+}
+
+@media (max-width: 450px) {
+  .map-xs {
+    display: revert;
+  }
+  .map-sm {
+    display: none;
+  }
+}
+@media (min-width: 451px) {
+  .map-xs {
+    display: none;
+  }
+  .map-sm {
+    display: revert;
+  }
 }
 
 /* About */
