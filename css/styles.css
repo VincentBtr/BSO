@@ -42,7 +42,7 @@
 }
 body {
   font-family: 'Memphis', 'sans-serif';
-  background-color: rgb(252, 252, 252);
+  background-color: white;
 }
 
 h1,
@@ -53,7 +53,7 @@ h5,
 h6 {
   font-family: 'Bebas Neue', 'serif';
   font-weight: 900;
-  color: rgb(82, 2, 2);
+  color: #18171C;
 }
 
 /* Language */
@@ -83,7 +83,7 @@ body {
 
 /* Header */
 #title {
-  background-color: rgb(247, 247, 247);
+  background-color: #1e2460;
   font-family: 'Bebas Neue', 'serif';
 }
 
@@ -95,7 +95,7 @@ body {
 
 /* Header - Brussels Soundtrack Orchestra */
 #title .navbar-brand {
-  color: rgb(82, 2, 2);
+  color: white;
   font-family: 'Bebas Neue', 'serif';
   font-weight: 900;
   font-size: 2.2rem;
@@ -148,7 +148,7 @@ body {
 
 /* Header - links to other pages */
 #title .nav-link {
-  color: #520202;
+  color: #f2e157;
   font-weight: 900;
   font-size: 1.5rem;
   font-family: 'Bebas Neue', 'serif';
@@ -157,12 +157,12 @@ body {
 }
 
 #concert-button {
-  background-color: rgba(82, 2, 2, 0.75);
+  background-color: rgba(255, 255, 255, 1.0);
   border-radius: 10px;
 }
 
 #concert-link {
-  color: rgb(247, 247, 247);
+  color: #f2e157;
 }
 
 .language-icon {
@@ -173,7 +173,7 @@ body {
 /* Footer */
 footer {
   font-size: 0.8rem;
-  color: rgb(120, 120, 120);
+  color: #18171c;
 }
 
 footer p {
@@ -275,7 +275,7 @@ footer p {
 }
 
 .thumbnail-concert {
-  background-color: rgba(82, 2, 2, 0.75);
+  background-color: #1e2460;
   width: 160px;
 }
 
@@ -299,14 +299,14 @@ footer p {
 }
 
 .thumbnail-concert:hover {
-  background-color: rgba(82, 2, 2, 0.85);
+  background-color: #18171c;
 }
 
 .thumbnail-concert:active,
 .thumbnail-concert:focus,
 .thumbnail-concert:target,
 .thumbnail-concert:active:focus {
-  background-color: rgba(82, 2, 2, 0.99);
+  background-color: #18171c;
 }
 
 /* Concerts - flyers */
@@ -344,7 +344,7 @@ footer p {
 }
 
 .event-fb-link {
-  color: rgb(82, 2, 2);
+  color: #1e2460;
 }
 
 .fb-event-icon {
@@ -423,26 +423,26 @@ footer p {
 }
 
 .social-logo-contact {
-  color: rgb(82, 2, 2);
+  color: #1e2460;
   width: 12%;
   margin: 5%;
 }
 
 .fb-logo-contact {
-  color: rgb(82, 2, 2);
+  color: #1e2460;
   width: 12.5%;
   margin: 5%;
 }
 
 .mail-logo-contact {
-  color: rgb(82, 2, 2);
+  color: #1e2460;
   width: 16%;
   margin: 5%;
 }
 
 .addr-box {
   text-decoration-line: none;
-  color: rgb(82, 2, 2);
+  color: #1e2460;
 }
 
 /* Gallery */
