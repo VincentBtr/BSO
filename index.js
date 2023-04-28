@@ -5,9 +5,10 @@ document.getElementById("current-year").textContent = currentYear;
 // Language selection
 var usingFR = true;
 
-// Language selection - Retrieve user preference
-if (localStorage.getItem("lang")) {
-  if (localStorage.getItem("lang") == "en") {
+const urlParams = new URLSearchParams(window.location.search);
+if (urlParams.has('lang')) {
+  const lang = urlParams.get('lang');
+  if (lang === "en") {
     switchLang();
   }
 }
@@ -23,13 +24,21 @@ function switchLang() {
     $(":lang(fr").css("display", "none");
     usingFR = false;
     $("#switch-lang").html('<img class="language-icon" src="images/language_icon.svg" />EN');
-    localStorage.setItem("lang", "en");
+    $(".about-page-link").attr('href','about.html?lang=en')
+    $(".concerts-page-link").attr('href','concerts.html?lang=en')
+    $(".contact-page-link").attr('href','contact.html?lang=en')
+    $(".gallery-page-link").attr('href','gallery.html?lang=en')
+    $(".index-page-link").attr('href','index.html?lang=en')
   } else {
     $(":lang(en)").css("display", "none");
     $(":lang(fr").css("display", "revert");
     usingFR = true;
     $("#switch-lang").html('<img class="language-icon" src="images/language_icon.svg" />FR');
-    localStorage.setItem("lang", "fr");
+    $(".about-page-link").attr('href','about.html?lang=fr')
+    $(".concerts-page-link").attr('href','concerts.html?lang=fr')
+    $(".contact-page-link").attr('href','contact.html?lang=fr')
+    $(".gallery-page-link").attr('href','gallery.html?lang=fr')
+    $(".index-page-link").attr('href','index.html?lang=fr')
   }
 }
 
