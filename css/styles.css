@@ -1,5 +1,47 @@
+@font-face {
+  font-family: "Memphis";
+  src: url("./fonts/memphis/MemphisLTPro-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Memphis";
+  src: url("./fonts/memphis/MemphisLTPro-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Memphis";
+  src: url("./fonts/memphis/MemphisLTPro-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Memphis";
+  src: url("./fonts/memphis/MemphisLTPro-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Memphis";
+  src: url("./fonts/memphis/MemphisLTPro-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Memphis";
+  src: url("./fonts/memphis/MemphisLTPro-Medium.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Memphis";
+  src: url("./fonts/memphis/MemphisLTPro-MediumItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
 body {
-  font-family: 'Montserrat', 'sans-serif';
+  font-family: 'Memphis', 'sans-serif';
   background-color: rgb(252, 252, 252);
 }
 
@@ -9,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Quicksand', 'serif';
+  font-family: 'Bebas Neue', 'serif';
   font-weight: 900;
   color: rgb(82, 2, 2);
 }
@@ -42,7 +84,7 @@ body {
 /* Header */
 #title {
   background-color: rgb(247, 247, 247);
-  font-family: 'Quicksand', 'serif';
+  font-family: 'Bebas Neue', 'serif';
 }
 
 /* Header - logo */
@@ -54,9 +96,9 @@ body {
 /* Header - Brussels Soundtrack Orchestra */
 #title .navbar-brand {
   color: rgb(82, 2, 2);
-  font-family: 'Aclonica', 'serif';
+  font-family: 'Bebas Neue', 'serif';
   font-weight: 900;
-  font-size: 1.7rem;
+  font-size: 2.2rem;
 }
 
 @media (max-width: 1070px) {
@@ -108,8 +150,8 @@ body {
 #title .nav-link {
   color: #520202;
   font-weight: 900;
-  font-size: 1.1rem;
-  font-family: 'Quicksand', 'serif';
+  font-size: 1.5rem;
+  font-family: 'Bebas Neue', 'serif';
   margin-left: 7px;
   margin-right: 7px;
 }
@@ -189,7 +231,7 @@ footer p {
 .body-index h1,
 .body-index h2 {
   color: white;
-  font-family: 'Aclonica', 'serif';
+  font-family: 'Bebas Neue', 'serif';
 }
 
 @media (max-width: 1028px) {
@@ -287,7 +329,7 @@ footer p {
   margin-bottom: 20px;
   margin-top: 20px;
   font-size: 1.5rem;
-  font-family: 'Aclonica', 'serif';
+  font-family: 'Bebas Neue', 'serif';
 }
 
 .ticket-button-box a {
