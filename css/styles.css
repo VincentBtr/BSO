@@ -278,6 +278,10 @@ footer p {
   text-decoration: none;
 }
 
+.body-index .card-body {
+  padding-top: 0;
+}
+
 .body-index .card-title {
   text-decoration: none;
   background-color: #f2e157;
