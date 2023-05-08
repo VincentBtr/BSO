@@ -1,42 +1,42 @@
 @font-face {
   font-family: "Memphis";
-  src: url("./fonts/memphis/MemphisLTPro-Bold.otf") format("opentype");
+  src: url("../fonts/memphis/MemphisLTPro-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Memphis";
-  src: url("./fonts/memphis/MemphisLTPro-BoldItalic.otf") format("opentype");
+  src: url("../fonts/memphis/MemphisLTPro-BoldItalic.otf") format("opentype");
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
   font-family: "Memphis";
-  src: url("./fonts/memphis/MemphisLTPro-ExtraBold.otf") format("opentype");
+  src: url("../fonts/memphis/MemphisLTPro-ExtraBold.otf") format("opentype");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Memphis";
-  src: url("./fonts/memphis/MemphisLTPro-Light.otf") format("opentype");
+  src: url("../fonts/memphis/MemphisLTPro-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Memphis";
-  src: url("./fonts/memphis/MemphisLTPro-LightItalic.otf") format("opentype");
+  src: url("../fonts/memphis/MemphisLTPro-LightItalic.otf") format("opentype");
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: "Memphis";
-  src: url("./fonts/memphis/MemphisLTPro-Medium.otf") format("opentype");
+  src: url("../fonts/memphis/MemphisLTPro-Medium.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Memphis";
-  src: url("./fonts/memphis/MemphisLTPro-MediumItalic.otf") format("opentype");
+  src: url("../fonts/memphis/MemphisLTPro-MediumItalic.otf") format("opentype");
   font-weight: 400;
   font-style: italic;
 }
@@ -52,6 +52,7 @@ h4,
 h5,
 h6 {
   font-family: 'Bebas Neue', 'serif';
+  letter-spacing: 0.1rem;
   font-weight: 900;
   color: #18171C;
 }
@@ -85,18 +86,21 @@ body {
 #title {
   background-color: #1e2460;
   font-family: 'Bebas Neue', 'serif';
+  letter-spacing: 0.1rem;
 }
 
 /* Header - logo */
 .bso-logo-header {
   height: 45px;
   margin-right: 10px;
+  filter: invert(100%);
 }
 
 /* Header - Brussels Soundtrack Orchestra */
 #title .navbar-brand {
   color: white;
   font-family: 'Bebas Neue', 'serif';
+  letter-spacing: 0.1rem;
   font-weight: 900;
   font-size: 2.2rem;
 }
@@ -152,6 +156,7 @@ body {
   font-weight: 900;
   font-size: 1.5rem;
   font-family: 'Bebas Neue', 'serif';
+  letter-spacing: 0.1rem;
   margin-left: 7px;
   margin-right: 7px;
 }
@@ -173,7 +178,7 @@ body {
 /* Footer */
 footer {
   font-size: 0.8rem;
-  color: #18171c;
+  color: rgb(120, 120, 120);
 }
 
 footer p {
@@ -195,10 +200,11 @@ footer p {
 /* Index */
 .body-index {
   padding: 3% 3%;
-  background-image: url("../images/concert.jpg");
+  /* background-image: url("../images/concert.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50%;
+  background-position: 50%; */
+  background-color: #18171C;
 }
 
 /* Index - logo */
@@ -232,6 +238,7 @@ footer p {
 .body-index h2 {
   color: white;
   font-family: 'Bebas Neue', 'serif';
+  letter-spacing: 0.1rem;
 }
 
 @media (max-width: 1028px) {
@@ -330,6 +337,7 @@ footer p {
   margin-top: 20px;
   font-size: 1.5rem;
   font-family: 'Bebas Neue', 'serif';
+  letter-spacing: 0.1rem;
 }
 
 .img-responsive {
