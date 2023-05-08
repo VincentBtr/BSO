@@ -42,7 +42,7 @@
 }
 body {
   font-family: 'Memphis', 'sans-serif';
-  background-color: white;
+  background-color: rgb(247,247,247);
 }
 
 h1,
@@ -55,6 +55,9 @@ h6 {
   letter-spacing: 0.1rem;
   font-weight: 900;
   color: #18171C;
+  text-decoration: underline #f2e157;
+  text-decoration-thickness: 0.7rem;
+  margin-bottom: 20px;
 }
 
 /* Language */
@@ -89,6 +92,11 @@ body {
   letter-spacing: 0.1rem;
 }
 
+#title h1 {
+  margin: 0;
+  text-decoration: none;
+}
+
 /* Header - logo */
 .bso-logo-header {
   height: 45px;
@@ -98,7 +106,7 @@ body {
 
 /* Header - Brussels Soundtrack Orchestra */
 #title .navbar-brand {
-  color: white;
+  color: rgb(247,247,247);
   font-family: 'Bebas Neue', 'serif';
   letter-spacing: 0.1rem;
   font-weight: 900;
@@ -152,7 +160,7 @@ body {
 
 /* Header - links to other pages */
 #title .nav-link {
-  color: #f2e157;
+  color: rgb(247,247,247);
   font-weight: 900;
   font-size: 1.5rem;
   font-family: 'Bebas Neue', 'serif';
@@ -162,16 +170,22 @@ body {
 }
 
 #concert-button {
-  background-color: rgba(255, 255, 255, 1.0);
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 #concert-link {
-  color: #f2e157;
+  color: #18171C;
+  background-color: #f2e157;
+  padding: 5px 10px;
+}
+
+.about-page-link, .contact-page-link, .gallery-page-link, .lang-switch-link {
+  padding-left: 10px;
 }
 
 .language-icon {
-  filter: invert(9%) sepia(39%) saturate(4239%) hue-rotate(345deg) brightness(100%) contrast(114%);
+  filter: invert(100%);
+  /* filter: invert(9%) sepia(39%) saturate(4239%) hue-rotate(345deg) brightness(100%) contrast(114%); */
   padding-bottom: 3px;
 }
 
@@ -204,7 +218,8 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%; */
-  background-color: #18171C;
+  /* background-color: #18171C; */
+  background: linear-gradient(#1e2460,#18171C);
 }
 
 /* Index - logo */
@@ -236,10 +251,21 @@ footer p {
 /* Index - ad for Uccle June 23 */
 .body-index h1,
 .body-index h2 {
-  color: white;
+  color: rgb(247,247,247);
   font-family: 'Bebas Neue', 'serif';
   letter-spacing: 0.1rem;
 }
+
+.body-index .card-header {
+  text-decoration: none;
+}
+
+.body-index .card-title {
+  text-decoration: none;
+  background-color: #f2e157;
+  color: #18171C;
+}
+
 
 @media (max-width: 1028px) {
   .body-index h1 {
@@ -284,6 +310,7 @@ footer p {
 .thumbnail-concert {
   background-color: #1e2460;
   width: 160px;
+  border-radius: 0px;
 }
 
 @media (max-width: 700px) {
@@ -306,14 +333,14 @@ footer p {
 }
 
 .thumbnail-concert:hover {
-  background-color: #18171c;
+  background-color: #18171C;
 }
 
 .thumbnail-concert:active,
 .thumbnail-concert:focus,
 .thumbnail-concert:target,
 .thumbnail-concert:active:focus {
-  background-color: #18171c;
+  background-color: #18171C;
 }
 
 /* Concerts - flyers */
@@ -346,7 +373,7 @@ footer p {
 
 .ticket-button-box a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: rgb(247,247,247);
   background: rgba(82, 2, 2, 0.75);
   padding: .4em 1em;
 }
@@ -407,6 +434,16 @@ footer p {
 
 .about-founder-element {
   margin: 30px 0px;
+}
+
+.about-founder-element h3 {
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.name-founder {
+  background-color: #f2e157;
+  padding: 0px 5px;
 }
 
 .photo-jean {
