@@ -311,6 +311,10 @@ footer p {
   background-color: #1e2460;
   width: 160px;
   border-radius: 0px;
+  font-weight: 700;
+
+  /* font-family: 'Bebas Neue', 'serif';
+  letter-spacing: 0.1rem; */
 }
 
 @media (max-width: 700px) {
@@ -333,7 +337,7 @@ footer p {
 }
 
 .thumbnail-concert:hover {
-  background-color: #18171C;
+  background-color: #25233e;
 }
 
 .thumbnail-concert:active,
@@ -362,9 +366,10 @@ footer p {
 .ticket-button-box {
   margin-bottom: 20px;
   margin-top: 20px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-family: 'Bebas Neue', 'serif';
   letter-spacing: 0.1rem;
+  font-weight: 900;
 }
 
 .img-responsive {
@@ -373,8 +378,8 @@ footer p {
 
 .ticket-button-box a {
   text-decoration: none;
-  color: rgb(247,247,247);
-  background: rgba(82, 2, 2, 0.75);
+  color: #18171C;
+  background: #f2e157;
   padding: .4em 1em;
 }
 
