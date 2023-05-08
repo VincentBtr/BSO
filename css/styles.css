@@ -222,7 +222,7 @@ footer p {
 
 /* Index */
 .body-index {
-  padding: 0% 3% 3%;
+  padding: 0.5% 3% 0.5%;
   /* background-image: url("../images/concert.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -269,6 +269,7 @@ footer p {
   background-size: cover;
   background-position: 50% 100%;
   border: none;
+  margin-bottom: 0!important;
 }
 
 .body-index .card-header {
