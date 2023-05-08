@@ -175,7 +175,7 @@ body {
   margin-right: 7px;
 }
 
-#concert-button {
+/* #concert-button {
   border-radius: 0px;
 }
 
@@ -183,9 +183,10 @@ body {
   color: #18171C;
   background-color: #f2e157;
   padding: 5px 10px;
-}
+} */
 
-.about-page-link, .contact-page-link, .gallery-page-link, .lang-switch-link {
+/* .about-page-link, .contact-page-link, .gallery-page-link, .lang-switch-link { */
+.concerts-page-link, .about-page-link, .contact-page-link, .gallery-page-link, .lang-switch-link {
   padding-left: 10px;
 }
 
