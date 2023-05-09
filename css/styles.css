@@ -454,12 +454,12 @@ footer p {
   font-size: 1.0rem;
 }
 
-.event-fb-link {
-  color: #1e2460;
+.concert-info-box img {
+  vertical-align: text-top;
 }
 
-.fb-event-icon {
-  width: 22px;
+.event-fb-link {
+  color: #1e2460;
 }
 
 .map-concert {
