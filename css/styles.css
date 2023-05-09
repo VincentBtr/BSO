@@ -415,9 +415,17 @@ footer p {
   margin-bottom: 17px;
 }
 
+.img-responsive {
+  width: 100%;
+}
+
 /* Concerts - infos */
 .concert-info-box {
   line-height: 2.5rem;
+}
+
+.concert-info-box a {
+  text-decoration-line: none;
 }
 
 .ticket-button-box {
@@ -427,21 +435,23 @@ footer p {
   font-family: 'Bebas Neue', 'serif';
   letter-spacing: 0.1rem;
   font-weight: 900;
-}
+  display: inline-block;
 
-.img-responsive {
-  width: 100%;
+  color: #18171C;
+  background: #f2e157;
+  text-align: center;
+  padding: .4em 1em .1em;
+
+  line-height: 1.5rem;
 }
 
 .ticket-button-box a {
   text-decoration: none;
   color: #18171C;
-  background: #f2e157;
-  padding: .4em 1em;
 }
 
-.concert-info-box a {
-  text-decoration-line: none;
+.buy-ticket-infos {
+  font-size: 1.0rem;
 }
 
 .event-fb-link {
