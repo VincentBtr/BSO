@@ -88,7 +88,7 @@ body {
 
 /* Header */
 #title {
-  background-color: #1e2460;
+  background-color: #002147;
   font-family: 'Bebas Neue', 'serif';
   letter-spacing: 0.1rem;
 }
@@ -201,7 +201,7 @@ footer {
   font-size: 0.8rem;
   color: rgb(120, 120, 120);
 
-  /* background-color: #1e2460; */
+  /* background-color: #002147; */
 }
 
 footer p {
@@ -227,8 +227,8 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%; */
-  /* background-color: #18171C; */
-  background: linear-gradient(#1e2460,#18171C);
+  background-color: #002147;
+  /* background: linear-gradient(#002147,#18171C); */
 }
 
 .body-index .container-fluid {
@@ -365,7 +365,7 @@ footer p {
 }
 
 .thumbnail-concert {
-  background-color: #1e2460;
+  background-color: #002147;
   width: 160px;
   border-radius: 0px;
   font-weight: 700;
@@ -459,7 +459,7 @@ footer p {
 }
 
 .event-fb-link {
-  color: #1e2460;
+  color: #002147;
 }
 
 .map-concert {
@@ -544,26 +544,26 @@ footer p {
 }
 
 .social-logo-contact {
-  color: #1e2460;
+  color: #002147;
   width: 12%;
   margin: 5%;
 }
 
 .fb-logo-contact {
-  color: #1e2460;
+  color: #002147;
   width: 12.5%;
   margin: 5%;
 }
 
 .mail-logo-contact {
-  color: #1e2460;
+  color: #002147;
   width: 16%;
   margin: 5%;
 }
 
 .addr-box {
   text-decoration-line: none;
-  color: #1e2460;
+  color: #002147;
 }
 
 /* Gallery */
