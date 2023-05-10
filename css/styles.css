@@ -114,51 +114,6 @@ body {
   font-size: 2.2rem;
 }
 
-/* @media (max-width: 1070px) {
-  #title .navbar-brand {
-    font-size: 1.5rem;
-  }
-} */
-/* @media (max-width: 1010px) {
-  #title .navbar-brand {
-    font-size: 2.0rem;
-  }
-} */
-@media (max-width: 620px) {
-  #title .navbar-brand {
-    font-size: 1.7rem;
-  }
-}
-
-@media (max-width: 520px) {
-  #title .navbar-brand {
-    font-size: 1.35rem;
-  }
-}
-
-@media (max-width: 450px) {
-  #title .navbar-brand {
-    font-size: 1.0rem;
-  }
-}
-
-@media (max-width: 380px) {
-  #title .navbar-brand {
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 335px) {
-  #title .navbar-brand {
-    font-size: 0.65rem;
-  }
-}
-@media (max-width: 295px) {
-  #title .navbar-brand {
-    font-size: 0.35rem;
-  }
-}
-
 /* Header - links to other pages */
 /* .navbar-toggler {
   color: rgb(247,247,247);
