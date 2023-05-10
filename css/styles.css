@@ -61,6 +61,11 @@ h6 {
   line-height: 3.3rem;
 }
 
+.bso-name {
+  font-weight: 800;
+  font-style: italic;
+}
+
 /* Language */
 :lang(en) {
   display: none;
@@ -177,7 +182,8 @@ footer p {
 
 /* Index */
 .body-index {
-  background-color: #002147;
+  /* background-color: #002147; */
+  background-color: rgb(247,247,247);
   /* background: linear-gradient(#002147,#18171C); */
 }
 
@@ -190,6 +196,8 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
+
+  margin-bottom: 40px;
 }
 
 .body-index .container-fluid {
@@ -320,9 +328,14 @@ footer p {
   margin: 0 5%;
 }
 
+.body-concerts h1 {
+  margin-top: 70px;
+  text-align: center;
+}
+
 /* Concerts - thumbnails */
 .cards-group-concerts {
-  padding: 4% 0 5%;
+  padding: 0% 0 5%;
 }
 
 .thumbnail-concert {

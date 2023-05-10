@@ -25,7 +25,7 @@ function switchLang() {
     usingFR = false;
     $("#switch-lang").html('<img class="language-icon" src="images/language_icon.svg" />EN');
     $(".about-page-link").attr('href','about.html?lang=en')
-    $(".concerts-page-link").attr('href','concerts.html?lang=en')
+    $(".concerts-page-link").attr('href','index.html?lang=en#concerts')
     $(".contact-page-link").attr('href','contact.html?lang=en')
     $(".gallery-page-link").attr('href','gallery.html?lang=en')
     $(".index-page-link").attr('href','index.html?lang=en')
@@ -35,7 +35,7 @@ function switchLang() {
     usingFR = true;
     $("#switch-lang").html('<img class="language-icon" src="images/language_icon.svg" />FR');
     $(".about-page-link").attr('href','about.html?lang=fr')
-    $(".concerts-page-link").attr('href','concerts.html?lang=fr')
+    $(".concerts-page-link").attr('href','index.html?lang=fr#concerts')
     $(".contact-page-link").attr('href','contact.html?lang=fr')
     $(".gallery-page-link").attr('href','gallery.html?lang=fr')
     $(".index-page-link").attr('href','index.html?lang=fr')
@@ -49,4 +49,5 @@ $(".addr").html(address);
 function openMail() {
   window.location.href = "mailto:" + atob(addressEnc);
 }
-$(".active-thumbnail").focus();
+
+// $(".active-thumbnail").focus();
