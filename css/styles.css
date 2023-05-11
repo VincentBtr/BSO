@@ -548,3 +548,7 @@ footer p {
 .gallery-element {
   margin: 0% 3% 7%;
 }
+
+.gallery-element img {
+  width: 100%;
+}
