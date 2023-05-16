@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Aclonica&family=Montserrat&family=Quicksand:wght@400;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Aclonica&family=Bebas+Neue&family=Montserrat&family=Quicksand:wght@400;700&display=swap"
     rel="stylesheet">
 
   <!-- Bootstrap CSS -->
@@ -25,26 +25,25 @@
 <body class="wrapper">
   <header>
     <section id="title">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
           <h1>
-            <a class="navbar-brand index-page-link" href="index.html"><img class="bso-logo-header" src="images/logo_full_w_top.png" />
-              Brussels Soundtrack Orchestra
-            </a>
+            <a class="navbar-brand index-page-link" href="index.html"><img class="bso-logo-header" src="images/logo_full_w.png" /></a>
           </h1>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item" id="concert-button"><a class="nav-link concerts-page-link" href="concerts.html"><span
+              <li class="nav-item"><a class="nav-link home-page-link" href="index.html"><span lang="en">Home</span><span lang="fr">Accueil</span></a></li>
+              <li class="nav-item" id="concert-button"><a class="nav-link concerts-page-link" href="index.html#concerts"><span
                     id="concert-link">Concerts</span></a></li>
               <li class="nav-item"><a class="nav-link about-page-link" href="about.html"><span lang="en">About</span><span lang="fr">A
                 propos</span></a></li>
               <li class="nav-item"><a class="nav-link contact-page-link" href="contact.html">Contact</a></li>
               <li class="nav-item"><a class="nav-link gallery-page-link" href="gallery.html"><span lang="en">Gallery</span><span
                     lang="fr">Galerie</span></a></li>
-              <li class="nav-item"><button id="switch-lang" class="nav-link"><img class="language-icon" src="images/language_icon.svg" />FR</button></li>
+              <li class="nav-item"><button id="switch-lang" class="nav-link lang-switch-link"><img class="language-icon" src="images/language_icon.svg" />FR</button></li>
             </ul>
           </div>
         </div>
@@ -85,7 +84,7 @@
           <div class="mx-md-5 mb-md-5">
             <div class="about-founder-element">
               <img class="photo-lydwine" src="images/photo_lydwine.jpeg" alt="">
-              <h3>Lydwine</h3>
+              <h3><span class="name-founder">Lydwine</span></h3>
               <p lang="fr">Entrepreneuse dans l'âme, chacun de mes projets me reconnecte au plaisir de "faire
                 ensemble".<br />
                 J'aime chanter, danser les claquettes, et le far west. Dans ma prochaine vie, j'espère être un pirate ou
@@ -102,10 +101,13 @@
         <div class="col-md-6">
           <div class="mx-md-5 mb-md-5">
             <div class="about-founder-element">
-              <!-- <img class="photo-jean" src="images/photo_jean.png" alt=""> -->
-              <h3>Jean</h3>
-              <p lang="fr">A venir !</p>
-              <p lang="en">Coming soon !</p>
+              <img class="photo-jean" src="images/photo_jean.png" alt="">
+              <h3><span class="name-founder">Jean</span></h3>
+              <p lang="fr">A l'affût de projets porteurs de sens, la musique me passionne
+                depuis toujours et m'amène au-delà des mes attentes. J'aime le bon pain et je veux
+                le partager tant que possible. </p>
+              <p lang="en">On the lookout for meaningful projects, music has always fascinated me and takes me beyond my expectations.
+                I like good bread and I want to share it as much as possible.</p>
             </div>
           </div>
         </div>
