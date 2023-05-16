@@ -198,8 +198,19 @@ footer p {
 }
 
 .empty-space .card {
-  background-color: #002147!important;
+  /* background-color: #002147!important; */
+  /* background-color: #18171C!important; */
+  border-color: #f2e157!important;
+  color: #f2e157!important;
 }
+.empty-space .card h2 {
+  text-decoration: none;
+  font-family: "Bebas Neue";
+  /* background-color: #f2e157!important; */
+  /* font-weight: 800;
+  font-size: 1.4rem; */
+}
+
 
 .index-promotion {
   color: #f2e157;
@@ -209,7 +220,7 @@ footer p {
   /* right: 50%; */
   bottom: 0%;
   font-family: "Memphis";
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .body-index .container-fluid {
