@@ -61,11 +61,6 @@ h6 {
   line-height: 3.3rem;
 }
 
-.bso-name {
-  font-weight: 800;
-  font-style: italic;
-}
-
 /* Language */
 :lang(en) {
   display: none;
@@ -198,6 +193,23 @@ footer p {
   background-position: 50%;
 
   margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.empty-space .card {
+  background-color: #002147!important;
+}
+
+.index-promotion {
+  color: #f2e157;
+  font-size: 2rem;
+  position: absolute;
+  text-align: center;
+  /* right: 50%; */
+  bottom: 0%;
+  font-family: "Memphis";
+  font-weight: 800;
 }
 
 .body-index .container-fluid {
@@ -214,6 +226,11 @@ footer p {
   margin-right: 8%;
 }
 
+.bso-name {
+  font-weight: 800;
+  font-style: italic;
+  background-color: #f2e157;
+}
 
 /* Index - BSO */
 .index-bso {
@@ -497,7 +514,7 @@ footer p {
   border-radius: 100%;
   margin-bottom: 5%;
   float: left;
-  /* margin-right: 20px; */
+  margin-right: 20px;
 }
 
 .photo-lydwine {
