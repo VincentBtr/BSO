@@ -24,6 +24,7 @@ function switchLang() {
     $(":lang(fr").css("display", "none");
     usingFR = false;
     $("#switch-lang").html('<img class="language-icon" src="images/language_icon.svg" />EN');
+    $(".home-page-link").attr('href','index.html?lang=en')
     $(".about-page-link").attr('href','about.html?lang=en')
     $(".concerts-page-link").attr('href','index.html?lang=en#concerts')
     $(".contact-page-link").attr('href','contact.html?lang=en')
@@ -34,6 +35,7 @@ function switchLang() {
     $(":lang(fr").css("display", "revert");
     usingFR = true;
     $("#switch-lang").html('<img class="language-icon" src="images/language_icon.svg" />FR');
+    $(".home-page-link").attr('href','index.html?lang=fr')
     $(".about-page-link").attr('href','about.html?lang=fr')
     $(".concerts-page-link").attr('href','index.html?lang=fr#concerts')
     $(".contact-page-link").attr('href','contact.html?lang=fr')
