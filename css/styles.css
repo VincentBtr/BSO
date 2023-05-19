@@ -61,6 +61,17 @@ h6 {
   line-height: 3.3rem;
 }
 
+h3 {
+  text-decoration: none;
+}
+
+h3 span {
+  background-color: #f2e157;
+  padding: 0 5px;
+  /* box-shadow: 5px 0 0px 0px #f2e157, -5px 0 0px 0px #f2e157; */
+}
+
+
 /* Language */
 :lang(en) {
   display: none;
@@ -490,8 +501,12 @@ footer p {
   margin: 7% 8%;
 }
 
+.about-history-title {
+  /* text-align: left; */
+}
+
 .about-bso {
-  margin-bottom: 8%;
+  /* margin-bottom: 8%; */
 }
 
 .logo-about {
@@ -499,11 +514,12 @@ footer p {
 }
 
 .about-bso-text {
-  margin-top: 8%;
+  /* margin-top: 8%; */
+  /* margin-bottom: 18%; */
 }
 
 .body-about h2 {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .about-founder-element {
@@ -569,8 +585,13 @@ footer p {
 }
 
 /* Gallery */
+
+.gallery-body h2 {
+  margin: 20px 4%;
+}
+
 .gallery-box {
-  margin: 7% 1%;
+  margin: 1% 1%;
 }
 
 .gallery-element {
