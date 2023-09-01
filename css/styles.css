@@ -113,7 +113,7 @@ body {
 .bso-logo-header {
   height: 45px;
   margin-right: 10px;
-  filter: invert(100%);
+  /* filter: invert(100%); */
 }
 
 /* Header - Brussels Film Orchestra */
