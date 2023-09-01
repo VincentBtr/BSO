@@ -45,8 +45,8 @@ function switchLang() {
 }
 
 // Mixing mail
-let address = "&#x69;&#x6E;&#x66;&#x6F;&#x40;&#x62;&#x72;&#x75;&#x73;&#x73;&#x65;&#x6C;&#x73;&#x73;&#x6F;&#x75;&#x6E;&#x64;&#x74;&#x72;&#x61;&#x63;&#x6B;&#x6F;&#x72;&#x63;&#x68;&#x65;&#x73;&#x74;&#x72;&#x61;&#x2E;&#x62;&#x65;";
-let addressEnc = "aW5mb0BicnVzc2Vsc3NvdW5kdHJhY2tvcmNoZXN0cmEuYmU=";
+let address = "&#x69;&#x6E;&#x66;&#x6F;&#x40;&#x62;&#x72;&#x75;&#x73;&#x73;&#x65;&#x6C;&#x73;&#x66;&#x69;&#x6C;&#x6D;&#x6F;&#x72;&#x63;&#x68;&#x65;&#x73;&#x74;&#x72;&#x61;&#x2E;&#x62;&#x65;";
+let addressEnc = "aW5mb0BicnVzc2Vsc2ZpbG1vcmNoZXN0cmEuYmU=";
 $(".addr").html(address);
 function openMail() {
   window.location.href = "mailto:" + atob(addressEnc);
