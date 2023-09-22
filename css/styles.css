@@ -465,7 +465,8 @@ footer p {
 }
 
 .concert-info-box img {
-  vertical-align: text-top;
+  /* vertical-align: text-bottom; */
+  padding-bottom: 0.4rem;
 }
 
 .event-fb-link {
