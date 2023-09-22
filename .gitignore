@@ -1,2 +1,5 @@
 unused
 .DS_Store
+.htaccess
+.htaccess_new
+.user.ini
