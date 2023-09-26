@@ -362,6 +362,23 @@ footer p {
   }
 }
 
+.body-teaser {
+  text-align: center;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.body-teaser video {
+  width: 80%;
+  max-width: 1000px
+}
+
+@media (max-width: 575px) {
+  .body-teaser video {
+    width: 95%;
+  }
+}
+
 /* Concerts */
 .body-concerts h1 {
   margin-top: 40px;
