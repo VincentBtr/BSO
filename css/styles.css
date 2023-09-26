@@ -364,18 +364,39 @@ footer p {
 
 .body-teaser {
   text-align: center;
-  width: 100%;
-  margin-top: 35px;
-}
-
-.body-teaser video {
   width: 80%;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1000px
 }
 
+.body-teaser video {
+  width: 100%;
+}
+
 @media (max-width: 575px) {
-  .body-teaser video {
+  .body-teaser {
     width: 95%;
+  }
+}
+
+.body-teaser p {
+  margin-top: -0.2rem;
+  text-align: right;
+  color: rgb(178, 178, 178);
+  font-size: 0.65rem;
+  font-style: italic;
+}
+
+@media (max-width: 1200px) {
+  .body-teaser p {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 575px) {
+  .body-teaser p {
+    font-size: 0.55rem;
   }
 }
 
