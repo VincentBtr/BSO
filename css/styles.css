@@ -400,6 +400,10 @@ footer p {
   }
 }
 
+.no-concert-text {
+  text-align: center;
+}
+
 /* Concerts */
 .body-concerts h1 {
   margin-top: 40px;
