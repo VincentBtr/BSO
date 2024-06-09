@@ -18,7 +18,7 @@
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 
   <link rel="icon" href="images/logo_black_tight.png">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles2.css">
   <title>BFO</title>
 </head>
 
@@ -131,8 +131,236 @@
     </video>
   </figure>
 
-  <!-- No concert code -->
 
+  <section class="body-concerts" id="concerts">
+    <h1 lang="fr">Prochains concerts</h1>
+    <h1 lang="en">Next concerts</h1>
+    <!-- Thumbnails -->
+
+    <div class="cards-group-concerts">
+      <div class="container-fluid justify-content-center text-center">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-lg btn-primary border-0 thumbnail-concert"
+            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0">2/06/24<br /><span lang="fr">Bruxelles</span><span lang="en">Brussels</span>
+            <br /><span lang="fr">17h</span><span lang="en">17.00</span></button>
+          <button type="button" class="btn btn-lg btn-primary border-0 thumbnail-concert active-thumbnail shadow-none"
+            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">2/06/24<br /><span lang="fr">Bruxelles</span><span lang="en">Brussels</span>
+            <br /><span lang="fr">19h30</span><span lang="en">19.30</span></button>
+        </div>
+      </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-wrap=false>
+      <div class="carousel-inner">
+
+        <!-- Full size flyer -->
+        <div class="modal" id="flyerNovemberModal" tabindex="-1">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="images/flyer_24_06_02v2.jpeg" class="img-responsive">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BRUXELLES 2 juin 24 17h -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="concert-flyer-box col-md-6">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#flyerNovemberModal"><img
+                  src="images/flyer_24_06_02v2.jpeg" alt=""></a>
+            </div>
+            <div class="concert-info-box col-md-6 text-md-start text-center">
+              <div lang="en">
+                <p><img class="mail-logo" src="./images/calendar_logo.svg" alt="" /> Sunday 2nd June 2024 at 17.00
+                </p>
+                <p><img class="mail-logo" src="./images/location_logo.svg" alt="" /> Royal Military Museum, Cinquantenaire Parc 3, Brussels
+                </p>
+              </div>
+              <div lang="fr">
+                <p><img class="mail-logo" src="./images/calendar_logo.svg" alt="" /> Dimanche 2 juin 2024 à 17h</p>
+                <p><img class="mail-logo" src="./images/location_logo.svg" alt="" /> Musée royal de l'armée, Parc du Cinquantenaire 3, Bruxelles
+                </p>
+              </div>
+
+              <div>
+                <iframe class="map-concert map-xs"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.479333120703!2d4.3907827769682575!3d50.84080745918019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794ae8ca4bc2efb%3A0xff536c1e1c005262!2sMus%C3%A9e%20royal%20de%20l&#39;arm%C3%A9e%20et%20de%20l&#39;histoire%20militaire!5e0!3m2!1sfr!2sbe!4v1711563064183!5m2!1sfr!2sbe" 
+                  width="280" height="210" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="map-concert map-sm"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.479333120703!2d4.3907827769682575!3d50.84080745918019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794ae8ca4bc2efb%3A0xff536c1e1c005262!2sMus%C3%A9e%20royal%20de%20l&#39;arm%C3%A9e%20et%20de%20l&#39;histoire%20militaire!5e0!3m2!1sfr!2sbe!4v1711563064183!5m2!1sfr!2sbe" 
+                  width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="ticket-title-box">
+                <p >Tickets - 2/06/24 <span lang="fr">17h</span><span lang="en">17.00</span></p>
+                  <!-- <br /><span class="ticket-time-infos">2/06/24 17h</span></p> -->
+              </div>
+
+              <!-- <div lang="fr">
+                <p class="concert-sold-out">Le concert de 17h est sold out</p>
+                <p class="concert-sold-out-body">Vous voulez tenter votre chance quand-même ?<br />Rendez-vous sur place à 16h45 pour vous inscrire sur la liste d'attente.<br />Paiement en cash uniquement.</p>
+              </div>
+              <div lang="en">
+                <p class="concert-sold-out">The 17.00 concert is sold out</p>
+                <p class="concert-sold-out-body">Want to try your luck anyway ?<br />Meet us on site at 16.45 to get on the waiting list.<br />Cash payment only.</p>
+              </div> -->
+
+              <div class="booking-helper">
+                <p lang="en"><b>Need help for booking ?</b><br />Contact 0484/124.395 or <a href="javascript:openMail();" class="addr-box"><span class="addr_lyd"></span></a></p>
+                <p lang="fr"><b>Besoin d'aide pour réserver ?</b><br />Contactez le 0484/124.395 ou <a href="javascript:openMail();" class="addr-box"><span class="addr_lyd"></span></a></p>
+                
+                <p lang="fr"><b>La billetterie ne s'affiche pas ?</b><br />Achetez vos billets 
+                  <a class="" href="https://widget.weezevent.com/ticket/E1122968/?code=74118&locale=fr-FR&width_auto=1&color_primary=00AEEF"
+                  onclick="var w=window.open('https://widget.weezevent.com/ticket/E1122968/?code=74118&locale=fr-FR&width_auto=1&color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;">
+                  <span class="addr-box">ici</span></a></p>
+                  
+                <p lang="en"><b>Ticket form does not show up ?</b><br />Buy your tickets 
+                  <a class="" href="https://widget.weezevent.com/ticket/E1122968/?code=74118&locale=en-GB&width_auto=1&color_primary=00AEEF"
+                  onclick="var w=window.open('https://widget.weezevent.com/ticket/E1122968/?code=74118&locale=en-GB&width_auto=1&color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;">
+                  <span class="addr-box">here</span></a></p>
+              </div>
+                                   
+              <div class="weez" lang="fr">
+                <a title="Logiciel billetterie en ligne"
+                  href="https://weezevent.com/?c=sys_widget"
+                  class="weezevent-widget-integration"
+                  data-src="https://widget.weezevent.com/ticket/E1122968/?code=74118&locale=fr-FR&width_auto=1&color_primary=00AEEF"
+                  data-width="650"
+                  data-height="600"
+                  data-id="1122968"
+                  data-resize="1"
+                  data-width_auto="1"
+                  data-noscroll="0"
+                  data-use-container="yes"
+                  data-type="neo"
+                  target="_blank">Billetterie Weezevent</a>
+              </div>
+              <div class="weez" lang="en">
+                <a title="Logiciel billetterie en ligne"
+                  href="https://weezevent.com/?c=sys_widget"
+                  class="weezevent-widget-integration"
+                  data-src="https://widget.weezevent.com/ticket/E1122968/?code=74118&locale=en-GB&width_auto=1&color_primary=00AEEF"
+                  data-width="650"
+                  data-height="600"
+                  data-id="1122968"
+                  data-resize="1"
+                  data-width_auto="1"
+                  data-noscroll="0"
+                  data-use-container="yes"
+                  data-type="neo"
+                  target="_blank">Billetterie Weezevent</a>
+              </div>
+              <!-- <script type="text/javascript" src="https://widget.weezevent.com/weez.js"></script> -->
+
+
+            </div>
+          </div>
+        </div>
+
+        <!-- BRUXELLES 2 juin 24 19h30 -->
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="concert-flyer-box col-md-6">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#flyerNovemberModal"><img
+                  src="images/flyer_24_06_02v2.jpeg" alt=""></a>
+            </div>
+            <div class="concert-info-box col-md-6 text-md-start text-center">
+
+              <div lang="en">
+                <p><img class="mail-logo" src="./images/calendar_logo.svg" alt="" /> Sunday 2nd June 2024 at 19.30
+                </p>
+                <p><img class="mail-logo" src="./images/location_logo.svg" alt="" /> Royal Military Museum, Cinquantenaire Parc 3, Brussels
+                </p>
+              </div>
+              <div lang="fr">
+                <p><img class="mail-logo" src="./images/calendar_logo.svg" alt="" /> Dimanche 2 juin 2024 à 19h30</p>
+                <p><img class="mail-logo" src="./images/location_logo.svg" alt="" /> Musée royal de l'armée, Parc du Cinquantenaire 3, Bruxelles
+                </p>
+              </div>
+
+              <iframe class="map-concert map-xs"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.479333120703!2d4.3907827769682575!3d50.84080745918019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794ae8ca4bc2efb%3A0xff536c1e1c005262!2sMus%C3%A9e%20royal%20de%20l&#39;arm%C3%A9e%20et%20de%20l&#39;histoire%20militaire!5e0!3m2!1sfr!2sbe!4v1711563064183!5m2!1sfr!2sbe" 
+                width="280" height="210" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe class="map-concert map-sm"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.479333120703!2d4.3907827769682575!3d50.84080745918019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794ae8ca4bc2efb%3A0xff536c1e1c005262!2sMus%C3%A9e%20royal%20de%20l&#39;arm%C3%A9e%20et%20de%20l&#39;histoire%20militaire!5e0!3m2!1sfr!2sbe!4v1711563064183!5m2!1sfr!2sbe" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+              <div class="ticket-title-box">
+                <p >Tickets - 2/06/24 <span lang="fr">19h30</span><span lang="en">19.30</span></p>
+              </div>
+              <div class="booking-helper">
+                <p lang="fr"><b>Besoin d'aide pour réserver ?</b><br />Contactez le 0484/124.395 ou <a href="javascript:openMail();" class="addr-box"><span class="addr_lyd"></span></a></p>
+                <p lang="en"><b>Need help for booking ?</b><br />Contact 0484/124.395 or <a href="javascript:openMail();" class="addr-box"><span class="addr_lyd"></span></a></p>
+
+                <p lang="fr"><b>La billetterie ne s'affiche pas ?</b><br />Achetez vos billets 
+                  <a class="" href="https://widget.weezevent.com/ticket/E1122983/?code=70503&locale=fr-FR&width_auto=1&color_primary=00AEEF"
+                  onclick="var w=window.open('https://widget.weezevent.com/ticket/E1122983/?code=70503&locale=fr-FR&width_auto=1&color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;">
+                  <span class="addr-box">ici</span></a></p>
+                  
+                <p lang="en"><b>Ticket form does not show up ?</b><br />Buy your tickets 
+                  <a class="" href="https://widget.weezevent.com/ticket/E1122983/?code=70503&locale=en-GB&width_auto=1&color_primary=00AEEF"
+                  onclick="var w=window.open('https://widget.weezevent.com/ticket/E1122983/?code=70503&locale=en-GB&width_auto=1&color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;">
+                  <span class="addr-box">here</span></a></p>
+              </div>
+              <!-- <div class="ticket-button-box position-relative">
+                <div lang="fr">
+                 <a class="stretched-link" href="https://widget.weezevent.com/ticket/E1122983/?code=70503&locale=fr-FR&width_auto=1&color_primary=00AEEF"
+                   onclick="var w=window.open('https://widget.weezevent.com/ticket/E1122983/?code=70503&locale=fr-FR&width_auto=1&color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;">Achetez
+                   vos billets<br /><span class="buy-ticket-infos">Bruxelles - 2/06 - 19h30</span></a>
+               </div>
+                <div lang="en">
+                  <a class="stretched-link" href="https://widget.weezevent.com/ticket/E1122983/?code=70503&locale=en-GB&width_auto=1&color_primary=00AEEF"
+                    onclick="var w=window.open('https://widget.weezevent.com/ticket/E1122983/?code=70503&locale=en-GB&width_auto=1&color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;">Buy
+                    tickets<br /><span class="buy-ticket-infos">Brussels - 2/06 - 19.30</span></a>
+                </div>
+              </div> -->
+              <div class="weez" lang="fr">
+                <a title="Logiciel billetterie en ligne"
+                  href="https://weezevent.com/?c=sys_widget"
+                  class="weezevent-widget-integration"
+                  data-src="https://widget.weezevent.com/ticket/E1122983/?code=70503&locale=fr-FR&width_auto=1&color_primary=00AEEF"
+                  data-width="650"
+                  data-height="600"
+                  data-id="1122983"
+                  data-resize="1"
+                  data-width_auto="1"
+                  data-noscroll="0"
+                  data-use-container="yes"
+                  data-type="neo"
+                  target="_blank">Billetterie Weezevent</a>
+              </div>
+              <div class="weez" lang="en">
+                <a title="Logiciel billetterie en ligne"
+                  href="https://weezevent.com/?c=sys_widget"
+                  class="weezevent-widget-integration"
+                  data-src="https://widget.weezevent.com/ticket/E1122983/?code=70503&locale=en-GB&width_auto=1&color_primary=00AEEF"
+                  data-width="650"
+                  data-height="600"
+                  data-id="1122983"
+                  data-resize="1"
+                  data-width_auto="1"
+                  data-noscroll="0"
+                  data-use-container="yes"
+                  data-type="neo"
+                  target="_blank">Billetterie Weezevent</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- No concert code -->
+  <!--
   <section class="body-concerts" id="concerts">
     <div class="container-fluid mb-5">
       <div class="row">
@@ -140,9 +368,21 @@
         <div class="col-lg-6 col-md-8 col-sm-10 text-start px-5">
             <h1 lang="fr">Prochains concerts</h1>
             <h1 lang="en">Next concerts</h1>
-            <p lang="en" class="no-concert-text">Next dates will be announced soon !</p>
-            <p lang="fr" class="no-concert-text">Les dates seront annoncées prochainement !</p>
-            
+          <p lang="en">Join us for our next concert on Sunday 5th November at 17.00 ! More information to come.</p>
+          <p lang="fr">Rejoignez-nous pour notre prochain concert le dimanche 5 novembre à 17h ! Plus d'informations à venir.</p>
+
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+</section>
+-->
+
+  <section class="body-concerts" id="concerts">
+    <div class="container-fluid mb-5">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-lg-6 col-md-8 col-sm-10 text-start px-5">
             <h1 lang="en">BFO is recruiting</h1>
             <h1 lang="fr">Le BFO recrute</h1>
             <img class="img-responsive" src="./images/recrutement.png" alt="" />
@@ -175,7 +415,8 @@
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="index.js" charset="UTF-8"></script>
+  <script src="index2.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="https://widget.weezevent.com/weez.js"></script>
 </body>
 
 </html>
